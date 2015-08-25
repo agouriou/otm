@@ -1,0 +1,2382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+                         xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+                         xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+                         xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+                         xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+                         xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/"
+                         xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+                         xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+                         xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0"
+                         xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+                         xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+                         xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+                         xmlns:math="http://www.w3.org/1998/Math/MathML"
+                         xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+                         xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+                         xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer"
+                         xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events"
+                         xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0"
+                         xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0"
+                         xmlns:rpt="http://openoffice.org/2005/report"
+                         xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2"
+                         xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+                         xmlns:officeooo="http://openoffice.org/2009/office"
+                         xmlns:tableooo="http://openoffice.org/2009/table"
+                         xmlns:drawooo="http://openoffice.org/2010/draw"
+                         xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0"
+                         xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+                         xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0"
+                         xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0"
+                         xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2">
+    <office:scripts/>
+    <office:font-face-decls>
+        <style:font-face style:name="Arial2" svg:font-family="Arial" style:font-family-generic="swiss"/>
+        <style:font-face style:name="DejaVu Sans1" svg:font-family="&apos;DejaVu Sans&apos;"
+                         style:font-family-generic="swiss"/>
+        <style:font-face style:name="DejaVu Sans2" svg:font-family="&apos;DejaVu Sans&apos;"
+                         style:font-adornments="Book" style:font-family-generic="swiss"/>
+        <style:font-face style:name="Courier New2" svg:font-family="&apos;Courier New&apos;"
+                         style:font-family-generic="modern" style:font-pitch="fixed"/>
+        <style:font-face style:name="Courier new1" svg:font-family="&apos;Courier new&apos;"
+                         style:font-family-generic="modern" style:font-pitch="fixed"/>
+        <style:font-face style:name="Arial Unicode MS" svg:font-family="&apos;Arial Unicode MS&apos;"
+                         style:font-pitch="variable"/>
+        <style:font-face style:name="Droid Sans Fallback1" svg:font-family="&apos;Droid Sans Fallback&apos;"
+                         style:font-pitch="variable"/>
+        <style:font-face style:name="FreeSans1" svg:font-family="FreeSans" style:font-pitch="variable"/>
+        <style:font-face style:name="Lohit Hindi" svg:font-family="&apos;Lohit Hindi&apos;"
+                         style:font-pitch="variable"/>
+        <style:font-face style:name="Lucida Sans Unicode" svg:font-family="&apos;Lucida Sans Unicode&apos;"
+                         style:font-pitch="variable"/>
+        <style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-pitch="variable"/>
+        <style:font-face style:name="Courier New1" svg:font-family="&apos;Courier New&apos;"
+                         style:font-family-generic="modern" style:font-pitch="variable"/>
+        <style:font-face style:name="Courier new" svg:font-family="&apos;Courier new&apos;"
+                         style:font-family-generic="modern" style:font-pitch="variable"/>
+        <style:font-face style:name="Liberation Sans2" svg:font-family="&apos;Liberation Sans&apos;"
+                         style:font-family-generic="modern" style:font-pitch="variable"/>
+        <style:font-face style:name="Times New Roman2" svg:font-family="&apos;Times New Roman&apos;"
+                         style:font-family-generic="modern" style:font-pitch="variable"/>
+        <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="roman"
+                         style:font-pitch="variable"/>
+        <style:font-face style:name="Courier New" svg:font-family="&apos;Courier New&apos;"
+                         style:font-family-generic="roman" style:font-pitch="variable"/>
+        <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;"
+                         style:font-family-generic="roman" style:font-pitch="variable"/>
+        <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;"
+                         style:font-family-generic="roman" style:font-pitch="variable"/>
+        <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss"
+                         style:font-pitch="variable"/>
+        <style:font-face style:name="Arial Unicode MS2" svg:font-family="&apos;Arial Unicode MS&apos;"
+                         style:font-family-generic="swiss" style:font-pitch="variable"/>
+        <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;"
+                         style:font-family-generic="swiss" style:font-pitch="variable"/>
+        <style:font-face style:name="Liberation Sans1" svg:font-family="&apos;Liberation Sans&apos;"
+                         style:font-family-generic="swiss" style:font-pitch="variable"/>
+        <style:font-face style:name="Lucida Sans Unicode1" svg:font-family="&apos;Lucida Sans Unicode&apos;"
+                         style:font-family-generic="swiss" style:font-pitch="variable"/>
+        <style:font-face style:name="Times New Roman1" svg:font-family="&apos;Times New Roman&apos;"
+                         style:font-family-generic="swiss" style:font-pitch="variable"/>
+        <style:font-face style:name="Arial Unicode MS1" svg:font-family="&apos;Arial Unicode MS&apos;"
+                         style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="Droid Sans Fallback" svg:font-family="&apos;Droid Sans Fallback&apos;"
+                         style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="FreeSans" svg:font-family="FreeSans" style:font-family-generic="system"
+                         style:font-pitch="variable"/>
+        <style:font-face style:name="Lohit Hindi1" svg:font-family="&apos;Lohit Hindi&apos;"
+                         style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="Tahoma1" svg:font-family="Tahoma" style:font-family-generic="system"
+                         style:font-pitch="variable"/>
+    </office:font-face-decls>
+    <office:automatic-styles>
+        <style:style style:name="dp1" style:family="drawing-page">
+            <style:drawing-page-properties presentation:background-visible="true"
+                                           presentation:background-objects-visible="true"
+                                           presentation:display-footer="false" presentation:display-page-number="false"
+                                           presentation:display-date-time="false"/>
+        </style:style>
+        <style:style style:name="dp2" style:family="drawing-page">
+            <style:drawing-page-properties presentation:display-header="true" presentation:display-footer="true"
+                                           presentation:display-page-number="false"
+                                           presentation:display-date-time="true"/>
+        </style:style>
+        <style:style style:name="dp3" style:family="drawing-page">
+            <style:drawing-page-properties presentation:background-visible="true"
+                                           presentation:background-objects-visible="true"
+                                           presentation:display-footer="true" presentation:display-page-number="true"
+                                           presentation:display-date-time="false"/>
+        </style:style>
+        <style:style style:name="gr1" style:family="graphic">
+            <style:graphic-properties style:protect="size"/>
+        </style:style>
+        <style:style style:name="gr2" style:family="graphic" style:parent-style-name="standard">
+            <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-horizontal-align="center"
+                                      draw:textarea-vertical-align="middle" draw:color-mode="standard"
+                                      draw:luminance="0%" draw:contrast="0%" draw:gamma="100%" draw:red="0%"
+                                      draw:green="0%" draw:blue="0%" fo:clip="rect(0cm, 0cm, 0cm, 0cm)"
+                                      draw:image-opacity="100%" style:mirror="none"/>
+        </style:style>
+        <style:style style:name="gr3" style:family="graphic" style:parent-style-name="standard">
+            <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-horizontal-align="center"
+                                      draw:textarea-vertical-align="middle" draw:color-mode="standard"
+                                      draw:luminance="0%" draw:contrast="0%" draw:gamma="100%" draw:red="0%"
+                                      draw:green="0%" draw:blue="0%" fo:clip="rect(0cm, 0cm, 0cm, 0cm)"
+                                      draw:image-opacity="100%" style:mirror="none" style:protect="size"/>
+        </style:style>
+        <style:style style:name="gr4" style:family="graphic" style:parent-style-name="standard">
+            <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:fill="solid"
+                                      draw:fill-color="#ffffff" draw:textarea-horizontal-align="left"
+                                      draw:auto-grow-height="true" draw:auto-grow-width="true" fo:min-height="0cm"
+                                      fo:min-width="0cm" draw:shadow="visible"/>
+        </style:style>
+        <style:style style:name="pr1" style:family="presentation" style:parent-style-name="design-2008-title">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="2.77cm"/>
+        </style:style>
+        <style:style style:name="pr2" style:family="presentation" style:parent-style-name="design-2008-subtitle"
+                     style:list-style-name="L5">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.03cm"/>
+        </style:style>
+        <style:style style:name="pr3" style:family="presentation" style:parent-style-name="design-2008-notes">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="11.392cm"/>
+        </style:style>
+        <style:style style:name="pr4" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr5" style:family="presentation" style:parent-style-name="design-2008-notes">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="11.428cm"/>
+        </style:style>
+        <style:style style:name="pr6" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr7" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr8" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr9" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr10" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr11" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr12" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr13" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr14" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr15" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.029cm"/>
+        </style:style>
+        <style:style style:name="pr16" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.977cm"/>
+        </style:style>
+        <style:style style:name="pr17" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.977cm"/>
+        </style:style>
+        <style:style style:name="pr18" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.977cm"/>
+        </style:style>
+        <style:style style:name="pr19" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.977cm"/>
+        </style:style>
+        <style:style style:name="pr20" style:family="presentation" style:parent-style-name="design-2008-outline1"
+                     style:list-style-name="L6">
+            <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="14.366cm"/>
+        </style:style>
+        <style:style style:name="co1" style:family="table-column">
+            <style:table-column-properties style:column-width="11.255cm" style:use-optimal-column-width="false"/>
+        </style:style>
+        <style:style style:name="co2" style:family="table-column">
+            <style:table-column-properties style:column-width="12.551cm" style:use-optimal-column-width="false"/>
+        </style:style>
+        <style:style style:name="co3" style:family="table-column">
+            <style:table-column-properties style:column-width="14.468cm" style:use-optimal-column-width="false"/>
+        </style:style>
+        <style:style style:name="co4" style:family="table-column">
+            <style:table-column-properties style:column-width="22.608cm" style:use-optimal-column-width="false"/>
+        </style:style>
+        <style:style style:name="co5" style:family="table-column">
+            <style:table-column-properties style:column-width="20.006cm" style:use-optimal-column-width="false"/>
+        </style:style>
+        <style:style style:name="ro1" style:family="table-row">
+            <style:table-row-properties style:row-height="2.596cm"/>
+        </style:style>
+        <style:style style:name="ro2" style:family="table-row">
+            <style:table-row-properties style:row-height="5.239cm"/>
+        </style:style>
+        <style:style style:name="ro3" style:family="table-row">
+            <style:table-row-properties style:row-height="3.398cm"/>
+        </style:style>
+        <style:style style:name="ro4" style:family="table-row">
+            <style:table-row-properties style:row-height="1.905cm"/>
+        </style:style>
+        <style:style style:name="ro5" style:family="table-row">
+            <style:table-row-properties style:row-height="3.922cm"/>
+        </style:style>
+        <style:style style:name="ce1" style:family="table-cell">
+            <style:graphic-properties draw:fill="solid" draw:fill-color="#e6e6ff" style:repeat="repeat"
+                                      fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm"
+                                      fo:padding-right="0.1cm"/>
+            <style:paragraph-properties fo:text-align="start" fo:border="0.03pt solid #000000"/>
+            <style:text-properties style:font-name="Courier new1" fo:font-size="20pt" fo:font-weight="normal"
+                                   style:font-size-asian="20pt" style:font-weight-asian="normal"
+                                   style:font-size-complex="20pt" style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="ce2" style:family="table-cell">
+            <style:graphic-properties draw:fill="solid" draw:fill-color="#e6e6ff" style:repeat="repeat"
+                                      fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm"
+                                      fo:padding-right="0.1cm"/>
+            <style:paragraph-properties fo:text-align="start" fo:border="0.03pt solid #000000"/>
+            <style:text-properties style:font-name="Courier new1" fo:font-size="14pt" fo:font-weight="normal"
+                                   style:font-size-asian="14pt" style:font-weight-asian="normal"
+                                   style:font-size-complex="14pt" style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="ce3" style:family="table-cell">
+            <style:graphic-properties draw:fill="solid" draw:fill-color="#e6e6ff" style:repeat="repeat"
+                                      fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm"
+                                      fo:padding-right="0.1cm"/>
+            <style:paragraph-properties fo:text-align="start" fo:border="0.03pt solid #000000"/>
+            <style:text-properties style:font-name="Courier new1" fo:font-size="12pt" fo:font-weight="normal"
+                                   style:font-size-asian="12pt" style:font-weight-asian="normal"
+                                   style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="ce4" style:family="table-cell">
+            <style:graphic-properties draw:fill="solid" draw:fill-color="#e6e6ff" style:repeat="repeat"
+                                      fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm"
+                                      fo:padding-right="0.1cm"/>
+            <style:paragraph-properties fo:text-align="start" fo:border="0.14pt solid #000000"/>
+            <style:text-properties style:font-name="Courier new1" fo:font-size="20pt" fo:font-weight="normal"
+                                   style:font-size-asian="20pt" style:font-weight-asian="normal"
+                                   style:font-size-complex="20pt" style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="P1" style:family="paragraph">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
+        </style:style>
+        <style:style style:name="P2" style:family="paragraph">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:line-height="200%"
+                                        fo:text-align="center" fo:text-indent="0cm"/>
+        </style:style>
+        <style:style style:name="P3" style:family="paragraph">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center"
+                                        fo:text-indent="0cm"/>
+            <style:text-properties fo:font-size="32pt" fo:font-style="italic" fo:text-shadow="none"
+                                   fo:font-weight="bold"/>
+        </style:style>
+        <style:style style:name="P4" style:family="paragraph">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
+            <style:text-properties fo:font-size="12pt"/>
+        </style:style>
+        <style:style style:name="P5" style:family="paragraph">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
+            <style:text-properties fo:font-size="32pt" fo:text-shadow="1pt 1pt"/>
+        </style:style>
+        <style:style style:name="P6" style:family="paragraph">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="start"
+                                        fo:text-indent="0cm"/>
+        </style:style>
+        <style:style style:name="P7" style:family="paragraph">
+            <style:paragraph-properties fo:margin-left="0.59cm" fo:margin-right="0cm" fo:text-align="start"
+                                        fo:text-indent="0cm"/>
+        </style:style>
+        <style:style style:name="P8" style:family="paragraph">
+            <style:paragraph-properties fo:text-align="center"/>
+        </style:style>
+        <style:style style:name="P9" style:family="paragraph">
+            <style:paragraph-properties fo:text-align="start"/>
+        </style:style>
+        <style:style style:name="P10" style:family="paragraph">
+            <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
+            <style:text-properties fo:color="#942824" style:font-name="Arial" fo:font-size="44pt"
+                                   fo:font-weight="bold"/>
+        </style:style>
+        <style:style style:name="T1" style:family="text">
+            <style:text-properties fo:font-size="32pt" fo:font-style="italic" fo:text-shadow="none"
+                                   fo:font-weight="bold"/>
+        </style:style>
+        <style:style style:name="T2" style:family="text">
+            <style:text-properties style:font-name="Arial2" fo:font-size="32pt" fo:text-shadow="1pt 1pt"/>
+        </style:style>
+        <style:style style:name="T3" style:family="text">
+            <style:text-properties style:font-name="Arial2"/>
+        </style:style>
+        <style:style style:name="T4" style:family="text">
+            <style:text-properties style:font-name="Arial2" fo:font-weight="bold" style:font-weight-asian="bold"
+                                   style:font-weight-complex="bold"/>
+        </style:style>
+        <style:style style:name="T5" style:family="text">
+            <style:text-properties style:font-name="Arial2" fo:font-weight="normal" style:font-weight-asian="normal"
+                                   style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="T6" style:family="text">
+            <style:text-properties style:font-name="Courier new1" fo:font-size="20pt" fo:font-weight="bold"
+                                   style:font-size-asian="20pt" style:font-weight-asian="bold"
+                                   style:font-size-complex="20pt" style:font-weight-complex="bold"/>
+        </style:style>
+        <style:style style:name="T7" style:family="text">
+            <style:text-properties style:font-name="Courier new1" fo:font-size="20pt" fo:font-weight="normal"
+                                   style:font-size-asian="20pt" style:font-weight-asian="normal"
+                                   style:font-size-complex="20pt" style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="T8" style:family="text">
+            <style:text-properties style:font-name="Courier new1" fo:font-size="14pt" fo:font-weight="bold"
+                                   style:font-size-asian="14pt" style:font-weight-asian="bold"
+                                   style:font-size-complex="14pt" style:font-weight-complex="bold"/>
+        </style:style>
+        <style:style style:name="T9" style:family="text">
+            <style:text-properties style:font-name="Courier new1" fo:font-size="14pt" fo:font-weight="normal"
+                                   style:font-size-asian="14pt" style:font-weight-asian="normal"
+                                   style:font-size-complex="14pt" style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="T10" style:family="text">
+            <style:text-properties style:font-name="Courier new1" fo:font-size="12pt" fo:font-weight="bold"
+                                   style:font-size-asian="12pt" style:font-weight-asian="bold"
+                                   style:font-size-complex="12pt" style:font-weight-complex="bold"/>
+        </style:style>
+        <style:style style:name="T11" style:family="text">
+            <style:text-properties style:font-name="Courier new1" fo:font-size="12pt" fo:font-weight="normal"
+                                   style:font-size-asian="12pt" style:font-weight-asian="normal"
+                                   style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="T12" style:family="text">
+            <style:text-properties style:font-name="Arial2" fo:font-style="normal" style:font-style-asian="normal"
+                                   style:font-style-complex="normal"/>
+        </style:style>
+        <style:style style:name="T13" style:family="text">
+            <style:text-properties style:font-name="Arial2" fo:font-style="normal" fo:font-weight="bold"
+                                   style:font-style-asian="normal" style:font-weight-asian="bold"
+                                   style:font-style-complex="normal" style:font-weight-complex="bold"/>
+        </style:style>
+        <style:style style:name="T14" style:family="text">
+            <style:text-properties style:font-name="Arial2" fo:font-style="italic" style:font-style-asian="italic"
+                                   style:font-style-complex="italic"/>
+        </style:style>
+        <style:style style:name="T15" style:family="text">
+            <style:text-properties style:font-name="Arial2" fo:font-style="italic" fo:font-weight="normal"
+                                   style:font-style-asian="italic" style:font-weight-asian="normal"
+                                   style:font-style-complex="italic" style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="T16" style:family="text">
+            <style:text-properties style:font-name="Arial2" fo:font-style="normal" fo:font-weight="normal"
+                                   style:font-style-asian="normal" style:font-weight-asian="normal"
+                                   style:font-style-complex="normal" style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="T17" style:family="text">
+            <style:text-properties style:font-name="Arial2" fo:language="fr" fo:country="FR" fo:font-style="normal"
+                                   fo:font-weight="normal" style:font-style-asian="normal"
+                                   style:font-weight-asian="normal" style:font-style-complex="normal"
+                                   style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="T18" style:family="text">
+            <style:text-properties style:font-name="DejaVu Sans2" fo:font-size="20pt" fo:font-weight="normal"
+                                   style:font-name-asian="DejaVu Sans2" style:font-size-asian="20pt"
+                                   style:font-weight-asian="normal" style:font-name-complex="DejaVu Sans2"
+                                   style:font-size-complex="20pt" style:font-weight-complex="normal"/>
+        </style:style>
+        <style:style style:name="T19" style:family="text">
+            <style:text-properties fo:color="#333333" style:text-outline="false" style:text-line-through-style="none"
+                                   style:text-line-through-type="none" style:text-position="0% 100%"
+                                   style:font-name="Arial2" fo:font-size="22pt" fo:font-style="normal"
+                                   fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal"
+                                   style:font-name-asian="Arial" style:font-size-asian="22pt"
+                                   style:font-style-asian="normal" style:font-weight-asian="normal"
+                                   style:font-name-complex="Arial" style:font-size-complex="12.5pt"
+                                   style:font-style-complex="normal" style:font-weight-complex="normal"
+                                   style:text-emphasize="none" style:font-relief="none"/>
+        </style:style>
+        <style:style style:name="T20" style:family="text">
+            <style:text-properties fo:color="#333333" style:text-outline="false" style:text-line-through-style="none"
+                                   style:text-line-through-type="none" style:text-position="0% 100%"
+                                   style:font-name="Arial2" fo:font-size="22pt" fo:font-style="normal"
+                                   fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold"
+                                   style:font-name-asian="Arial" style:font-size-asian="22pt"
+                                   style:font-style-asian="normal" style:font-weight-asian="bold"
+                                   style:font-name-complex="Arial" style:font-size-complex="12.5pt"
+                                   style:font-style-complex="normal" style:font-weight-complex="bold"
+                                   style:text-emphasize="none" style:font-relief="none"/>
+        </style:style>
+        <style:style style:name="T21" style:family="text">
+            <style:text-properties fo:color="#942824" style:font-name="Arial" fo:font-size="44pt"
+                                   fo:font-weight="bold"/>
+        </style:style>
+        <text:list-style style:name="L1">
+            <text:list-level-style-bullet text:level="1" text:bullet-char="•">
+                <style:list-level-properties/>
+                <style:text-properties style:font-name="Arial" fo:color="#006699" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="2" text:bullet-char="•">
+                <style:list-level-properties text:space-before="1.27cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#006699" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="3" text:bullet-char="•">
+                <style:list-level-properties text:space-before="2.54cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#006699" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="4" text:bullet-char="•">
+                <style:list-level-properties text:space-before="3.175cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#006699" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="5" text:bullet-char="•">
+                <style:list-level-properties text:space-before="4.4cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#006699" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="6" text:bullet-char="•">
+                <style:list-level-properties text:space-before="4.4cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#006699" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="7" text:bullet-char="•">
+                <style:list-level-properties text:space-before="4.4cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#006699" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="8" text:bullet-char="•">
+                <style:list-level-properties text:space-before="4.4cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#006699" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="9" text:bullet-char="•">
+                <style:list-level-properties text:space-before="4.4cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#006699" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+                <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+        </text:list-style>
+        <text:list-style style:name="L2">
+            <text:list-level-style-bullet text:level="1" text:bullet-char="•">
+                <style:list-level-properties/>
+                <style:text-properties style:font-name="Arial" fo:color="#ffffff" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+                <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+                <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+                <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+                <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+                <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+                <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+                <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+                <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+                <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+        </text:list-style>
+        <text:list-style style:name="L3">
+            <text:list-level-style-bullet text:level="1" text:bullet-char="•">
+                <style:list-level-properties text:min-label-width="0.59cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#942824" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="2" text:bullet-char="•">
+                <style:list-level-properties text:space-before="1.27cm" text:min-label-width="0.635cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#942824" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="3" text:bullet-char="•">
+                <style:list-level-properties text:space-before="2.54cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#942824" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="4" text:bullet-char="•">
+                <style:list-level-properties text:space-before="3.175cm" text:min-label-width="0.635cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#942824" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="5" text:bullet-char="•">
+                <style:list-level-properties text:space-before="4.436cm" text:min-label-width="0.644cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#942824" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="6" text:bullet-char="•">
+                <style:list-level-properties text:space-before="4.436cm" text:min-label-width="0.644cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#942824" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="7" text:bullet-char="•">
+                <style:list-level-properties text:space-before="4.436cm" text:min-label-width="0.644cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#942824" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="8" text:bullet-char="•">
+                <style:list-level-properties text:space-before="4.436cm" text:min-label-width="0.644cm"/>
+                <style:text-properties style:font-name="Arial" fo:color="#942824" fo:font-size="105%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+                <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+                <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+        </text:list-style>
+        <text:list-style style:name="L4">
+            <text:list-level-style-bullet text:level="1" text:bullet-char="•">
+                <style:list-level-properties/>
+                <style:text-properties style:font-name="Times New Roman" fo:color="#000000" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="2" text:bullet-char="•">
+                <style:list-level-properties text:space-before="1.27cm"/>
+                <style:text-properties style:font-name="Times New Roman" fo:color="#000000" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="3" text:bullet-char="•">
+                <style:list-level-properties text:space-before="2.54cm"/>
+                <style:text-properties style:font-name="Times New Roman" fo:color="#000000" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="4" text:bullet-char="•">
+                <style:list-level-properties text:space-before="3.81cm"/>
+                <style:text-properties style:font-name="Times New Roman" fo:color="#000000" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="5" text:bullet-char="•">
+                <style:list-level-properties text:space-before="5.08cm"/>
+                <style:text-properties style:font-name="Times New Roman" fo:color="#000000" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="6" text:bullet-char="•">
+                <style:list-level-properties text:space-before="5.08cm"/>
+                <style:text-properties style:font-name="Times New Roman" fo:color="#000000" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="7" text:bullet-char="•">
+                <style:list-level-properties text:space-before="5.08cm"/>
+                <style:text-properties style:font-name="Times New Roman" fo:color="#000000" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="8" text:bullet-char="•">
+                <style:list-level-properties text:space-before="5.08cm"/>
+                <style:text-properties style:font-name="Times New Roman" fo:color="#000000" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="9" text:bullet-char="•">
+                <style:list-level-properties text:space-before="5.08cm"/>
+                <style:text-properties style:font-name="Times New Roman" fo:color="#000000" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="10" text:bullet-char="•">
+                <style:list-level-properties text:space-before="5.08cm"/>
+                <style:text-properties style:font-name="Times New Roman" fo:color="#000000" fo:font-size="100%"/>
+            </text:list-level-style-bullet>
+        </text:list-style>
+        <text:list-style style:name="L5">
+            <text:list-level-style-bullet text:level="1" text:bullet-char="▪">
+                <style:list-level-properties/>
+                <style:text-properties fo:font-family="Tahoma" style:font-style-name="Normal"
+                                       style:font-family-generic="swiss" style:font-pitch="variable" fo:color="#942824"
+                                       fo:font-size="150%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="2" text:bullet-char="▪">
+                <style:list-level-properties/>
+                <style:text-properties fo:font-family="Tahoma" style:font-style-name="Normal"
+                                       style:font-family-generic="swiss" style:font-pitch="variable" fo:color="#942824"
+                                       fo:font-size="150%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="3" text:bullet-char="▪">
+                <style:list-level-properties text:space-before="2.54cm" text:min-label-width="0.635cm"/>
+                <style:text-properties fo:font-family="Tahoma" style:font-style-name="Normal"
+                                       style:font-family-generic="swiss" style:font-pitch="variable" fo:color="#942824"
+                                       fo:font-size="150%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="4" text:bullet-char="▪">
+                <style:list-level-properties text:space-before="3.81cm" text:min-label-width="0.635cm"/>
+                <style:text-properties fo:font-family="Tahoma" style:font-style-name="Normal"
+                                       style:font-family-generic="swiss" style:font-pitch="variable" fo:color="#942824"
+                                       fo:font-size="150%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="5" text:bullet-char="▪">
+                <style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"/>
+                <style:text-properties fo:font-family="Tahoma" style:font-style-name="Normal"
+                                       style:font-family-generic="swiss" style:font-pitch="variable" fo:color="#942824"
+                                       fo:font-size="150%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="6" text:bullet-char="▪">
+                <style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"/>
+                <style:text-properties fo:font-family="Tahoma" style:font-style-name="Normal"
+                                       style:font-family-generic="swiss" style:font-pitch="variable" fo:color="#942824"
+                                       fo:font-size="150%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="7" text:bullet-char="▪">
+                <style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"/>
+                <style:text-properties fo:font-family="Tahoma" style:font-style-name="Normal"
+                                       style:font-family-generic="swiss" style:font-pitch="variable" fo:color="#942824"
+                                       fo:font-size="150%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="8" text:bullet-char="▪">
+                <style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"/>
+                <style:text-properties fo:font-family="Tahoma" style:font-style-name="Normal"
+                                       style:font-family-generic="swiss" style:font-pitch="variable" fo:color="#942824"
+                                       fo:font-size="150%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="9" text:bullet-char="▪">
+                <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="Tahoma" style:font-style-name="Normal"
+                                       style:font-family-generic="swiss" style:font-pitch="variable" fo:color="#942824"
+                                       fo:font-size="150%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+                <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+        </text:list-style>
+        <text:list-style style:name="L6">
+            <text:list-level-style-image text:level="1" xlink:href="Pictures/100000000000001400000016B44E251F.png"
+                                         xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+                <style:list-level-properties text:min-label-width="0.59cm" style:vertical-pos="middle"
+                                             style:vertical-rel="line" fo:width="0.554cm" fo:height="0.61cm"/>
+            </text:list-level-style-image>
+            <text:list-level-style-image text:level="2" xlink:href="Pictures/100000000000001400000016B44E251F.png"
+                                         xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+                <style:list-level-properties text:space-before="1.27cm" text:min-label-width="0.784cm"
+                                             style:vertical-pos="middle" style:vertical-rel="line" fo:width="0.319cm"
+                                             fo:height="0.351cm"/>
+            </text:list-level-style-image>
+            <text:list-level-style-image text:level="3" xlink:href="Pictures/100000000000001400000016B44E251F.png"
+                                         xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+                <style:list-level-properties text:space-before="2.54cm" text:min-label-width="0.635cm"
+                                             style:vertical-pos="middle" style:vertical-rel="line" fo:width="0.232cm"
+                                             fo:height="0.256cm"/>
+            </text:list-level-style-image>
+            <text:list-level-style-image text:level="4" xlink:href="Pictures/100000000000001400000016B44E251F.png"
+                                         xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+                <style:list-level-properties text:space-before="3.81cm" text:min-label-width="0.635cm"
+                                             style:vertical-pos="middle" style:vertical-rel="line" fo:width="0.166cm"
+                                             fo:height="0.183cm"/>
+            </text:list-level-style-image>
+            <text:list-level-style-image text:level="5" xlink:href="Pictures/100000000000001400000016B44E251F.png"
+                                         xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+                <style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"
+                                             style:vertical-pos="middle" style:vertical-rel="line" fo:width="0.166cm"
+                                             fo:height="0.183cm"/>
+            </text:list-level-style-image>
+            <text:list-level-style-image text:level="6" xlink:href="Pictures/100000000000001400000016B44E251F.png"
+                                         xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+                <style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"
+                                             style:vertical-pos="middle" style:vertical-rel="line" fo:width="0.166cm"
+                                             fo:height="0.183cm"/>
+            </text:list-level-style-image>
+            <text:list-level-style-image text:level="7" xlink:href="Pictures/100000000000001400000016B44E251F.png"
+                                         xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+                <style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"
+                                             style:vertical-pos="middle" style:vertical-rel="line" fo:width="0.166cm"
+                                             fo:height="0.183cm"/>
+            </text:list-level-style-image>
+            <text:list-level-style-image text:level="8" xlink:href="Pictures/100000000000001400000016B44E251F.png"
+                                         xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+                <style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"
+                                             style:vertical-pos="middle" style:vertical-rel="line" fo:width="0.166cm"
+                                             fo:height="0.183cm"/>
+            </text:list-level-style-image>
+            <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+                <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+                <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+                <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true"
+                                       fo:font-size="45%"/>
+            </text:list-level-style-bullet>
+        </text:list-style>
+    </office:automatic-styles>
+    <office:body>
+        <office:presentation>
+            <presentation:footer-decl presentation:name="ftr1">00 - Introduction</presentation:footer-decl>
+            <draw:page draw:name="page1" draw:style-name="dp1" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL1T19" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P1" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:placeholder="true">
+                    <draw:text-box/>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr2" draw:text-style-name="P3" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.03cm" svg:x="0.86cm" svg:y="4.233cm">
+                    <draw:text-box>
+                        <text:p text:style-name="P2">
+                            <text:span text:style-name="T1">Fonctionnement de git</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="1"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr3" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="13.93cm" svg:height="11.392cm" svg:x="2.54cm" svg:y="12.065cm"
+                                presentation:class="notes" presentation:placeholder="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page2" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Historique</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr4" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.029cm" svg:x="0.86cm" svg:y="4.233cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Le kernel Linux était versionné sur le DVCS
+                                        propriétaire BitKeeper
+                                    </text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T3">Après des années de trolls/flames, BitKeeper
+                                                et Linux ont préféré se séparer, l&apos;annonce officielle date du 6
+                                                Avril 2005
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T3">Aucune alternative gratuite ne convient
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T3">Le 3 avril 2005, Linus Torvalds débute le
+                                        développement de git
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T3">Le 7 avril, git est versionné sous git</text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T3">Le 16 avril, le kernel linux est versionné sous
+                                        git
+                                    </text:span>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T3">Il aura fallu trois jours de développement avant d&apos;avoir
+                                        un système de versionning
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T3">Linus Torvalds n&apos;est pas un génie (enfin si),
+                                        il a juste repris le problème de versionning de la base
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="2.257cm"
+                            svg:height="2.257cm" svg:x="11.572cm" svg:y="11.4cm">
+                    <draw:image xlink:href="Pictures/100002010000004000000040CDAD379A.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="2"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page3" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Le problème à résoudre</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.029cm" svg:x="0.86cm" svg:y="4.233cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Pour rappel : le système de versionning a pour but
+                                        de sauvegarder et d&apos;historiser du
+                                    </text:span>
+                                    <text:span text:style-name="T4">contenu</text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T5">Pas des fichiers, ni une arborescence, mais
+                                                bien du contenu
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T5">Chaque version différente = un contenu
+                                                différent
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                                <text:p>
+                                    <text:span text:style-name="T5"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T5">L&apos;idée est maintenant de pouvoir identifier un
+                                        contenu par rapport à un autre
+                                    </text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T5">La solution est de lui donner un identifiant
+                                                unique
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T5">Pour deux contenus identiques un seul
+                                                identifiant est généré
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T5">Cette empreinte unique correspond à un Hash
+                                    </text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T5">SHA1 sera utilisé comme fonction de Hash
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="4.515cm"
+                            svg:height="4.515cm" svg:x="19.485cm" svg:y="13.685cm">
+                    <draw:image xlink:href="Pictures/1000020100000080000000802F031074.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="3"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page4" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Blob</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr7" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.029cm" svg:x="0.86cm" svg:y="4.233cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Le contenu de chaque fichier est pris, hashé et
+                                        stocké dans une base interne
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">La représentation la plus simple est celle-ci
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Seul le</text:span>
+                                    <text:span text:style-name="T4">contenu</text:span>
+                                    <text:span text:style-name="T5">est enregistré, le nom et l&apos;emplacement du
+                                        fichier ne sont pas disponibles
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="7.864cm"
+                            svg:height="5.995cm" svg:x="1.2cm" svg:y="7.805cm">
+                    <draw:image xlink:href="Pictures/10000201000000DF000000AA77DD4953.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <draw:frame draw:style-name="standard" draw:layer="layout" svg:width="11.254cm" svg:height="2.595cm"
+                            svg:x="10.519cm" svg:y="9.085cm">
+                    <table:table table:template-name="default" table:use-first-row-styles="true"
+                                 table:use-banding-rows-styles="true">
+                        <table:table-column table:style-name="co1"/>
+                        <table:table-row table:style-name="ro1">
+                            <table:table-cell table:style-name="ce1">
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T6">$</text:span>
+                                    <text:span text:style-name="T7">git cat-file -p cd08755</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T7">Hello world!</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T6">$</text:span>
+                                </text:p>
+                            </table:table-cell>
+                        </table:table-row>
+                    </table:table>
+                    <draw:image xlink:href="Pictures/TablePreview1.svm" xlink:type="simple" xlink:show="embed"
+                                xlink:actuate="onLoad"/>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="4"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page5" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Tree</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr8" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.029cm" svg:x="0.86cm" svg:y="4.233cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Puisque seul le contenu est conservé il faut un
+                                        système pour réassigner celui-ci à un fichier. Cela se fera avec un
+                                    </text:span>
+                                    <text:span text:style-name="T4">tree</text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T5">Un tree contient des références vers des blobs ainsi
+                                        que d&apos;autres trees pour créer un système hiérarchique
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Cette fois-ci seul les noms des &quot;fichiers/dossiers&quot;
+                                        sont enregistrés
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Le SHA1 associé est celui qui permet d&apos;accéder
+                                        au blob/tree correspondant
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">PS : Il ne peut pas exister de &quot;dossier&quot;
+                                        (tree) vide !
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="11.039cm"
+                            svg:height="5.995cm" svg:x="0.361cm" svg:y="7.905cm">
+                    <draw:image xlink:href="Pictures/1000020100000139000000AAB607DBBB.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <draw:frame draw:style-name="standard" draw:layer="layout" svg:width="12.55cm" svg:height="5.238cm"
+                            svg:x="11.445cm" svg:y="8.127cm">
+                    <table:table table:template-name="default" table:use-first-row-styles="true"
+                                 table:use-banding-rows-styles="true">
+                        <table:table-column table:style-name="co2"/>
+                        <table:table-row table:style-name="ro2">
+                            <table:table-cell table:style-name="ce2">
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T8">$</text:span>
+                                    <text:span text:style-name="T9">tree</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T9">|- firstDir</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T9">|<text:s/>|- firstFileCopy.txt
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T9">|<text:s/>`- secondFile.txt
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T9">`- firstFile.txt</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T8">$</text:span>
+                                    <text:span text:style-name="T9">git cat-file -p b7868f7</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T9">040000 tree 0cae752... firstDir</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T9">100644 blob cd08755... firstFile.txt</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T8">$</text:span>
+                                </text:p>
+                            </table:table-cell>
+                        </table:table-row>
+                    </table:table>
+                    <draw:image xlink:href="Pictures/TablePreview2.svm" xlink:type="simple" xlink:show="embed"
+                                xlink:actuate="onLoad"/>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="5"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page6" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Exemple d&apos;arborescence</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr9" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.029cm" svg:x="0.86cm" svg:y="4.234cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-header>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                            </text:list-header>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Note : Il n&apos;y a qu&apos;un seul blob contenant
+                                        &quot;Hello world !&quot;</text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Même contenu =&gt; même SHA1</text:span>
+                                </text:p>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="25.399cm"
+                            svg:height="9.774cm" svg:x="0.001cm" svg:y="4.726cm">
+                    <draw:image xlink:href="Pictures/1000020100000369000001506DEB445F.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="6"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page7" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Commit</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr10" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.303cm" svg:x="0.86cm" svg:y="4.234cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Il ne manque plus qu&apos;à obtenir les informations
+                                        différenciant les versions des données. Les
+                                    </text:span>
+                                    <text:span text:style-name="T4">commits</text:span>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Un commit contenant les méta-données d&apos;une
+                                        sauvegarde
+                                    </text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T3">Auteur, Timestamp, Tree servant de racine,
+                                                message de commit
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T3">Il y a une différence entre l&apos;auteur et le
+                                        commiteur (utile en OSS)
+                                    </text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T3">Auteur : a écrit le patch/la version
+                                                actuelle
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T3">Commiteur : a validé le patch et avait les
+                                                droits suffisants pour le mettre sur le dépôt
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="10.527cm"
+                            svg:height="5.494cm" svg:x="0.2cm" svg:y="6.206cm">
+                    <draw:image xlink:href="Pictures/1000020100000155000000B26A14C839.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <draw:frame draw:style-name="standard" draw:layer="layout" svg:width="14.467cm" svg:height="3.397cm"
+                            svg:x="10.389cm" svg:y="7.134cm">
+                    <table:table table:template-name="default" table:use-first-row-styles="true"
+                                 table:use-banding-rows-styles="true">
+                        <table:table-column table:style-name="co3"/>
+                        <table:table-row table:style-name="ro3">
+                            <table:table-cell table:style-name="ce3">
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T10">$</text:span>
+                                    <text:span text:style-name="T11">git cat-file -p 64bf0dd</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T11">Tree b7868f7...</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T11">Author Zenika &lt;training@zenika.com&gt;
+                                        1308746088 +0100
+                                    </text:span>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T11">Committer<text:s/>Zenika &lt;training@zenika.com&gt;
+                                        1308746088 +0100
+                                    </text:span>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T11"/>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T11">First commit</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T10">$</text:span>
+                                </text:p>
+                            </table:table-cell>
+                        </table:table-row>
+                    </table:table>
+                    <draw:image xlink:href="Pictures/TablePreview3.svm" xlink:type="simple" xlink:show="embed"
+                                xlink:actuate="onLoad"/>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="7"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page8" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Plein de commits</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr11" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.029cm" svg:x="0.86cm" svg:y="4.234cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-header>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3"/>
+                                </text:p>
+                            </text:list-header>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">Une petite explication de ce graphe ?</text:span>
+                                </text:p>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="25.399cm"
+                            svg:height="12.933cm" svg:x="0.001cm" svg:y="3.046cm">
+                    <draw:image xlink:href="Pictures/10000201000003CE000001F0BDAA4E1F.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="8"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page9" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">L&apos;oeuf et la poule</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr12" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.303cm" svg:x="0.86cm" svg:y="4.234cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T3">En ayant plusieurs commits, il reste encore le
+                                        problème de l&apos;</text:span>
+                                    <text:span text:style-name="T4">ordre</text:span>
+                                    <text:span text:style-name="T3">des commits</text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T12">Pour ça un attribut</text:span>
+                                    <text:span text:style-name="T13">parent</text:span>
+                                    <text:span text:style-name="T12">est placé dans chaque commit, pointant sur le(s)
+                                        commit(s) précédent(s)
+                                    </text:span>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T12"/>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T12"/>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T12"/>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T12"/>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T12"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T12">Contrairement à d&apos;</text:span>
+                                    <text:span text:style-name="T14">autres</text:span>
+                                    <text:span text:style-name="T12">l&apos;ordre de parution des commits n&apos;influe
+                                        pas sur l&apos;ordre réel des commits
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T12">Chaque commit sait d&apos;où il &quot;vient&quot;,
+                                        mais ne sait pas vers où il &quot;va&quot;</text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T12">Il pourrait y avoir plusieurs branches (ou
+                                                aucune)
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T12">Quand le commit est fait, il n&apos;y a pas
+                                                de commit suivant !
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="20.104cm"
+                            svg:height="5.924cm" svg:x="2.648cm" svg:y="7.681cm">
+                    <draw:image xlink:href="Pictures/100002010000023A000000A8A4F9083E.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="9"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page10" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Les branches</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr13" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.029cm" svg:x="0.86cm" svg:y="4.234cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T12">Un concept important, parfois évité par les
+                                        utilisateurs d&apos;anciens VCS, est remit au goût du jour : les
+                                    </text:span>
+                                    <text:span text:style-name="T13">branches</text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T15">Certains</text:span>
+                                    <text:span text:style-name="T16">VCS se basent sur le principe qu&apos;une branche n&apos;est
+                                        qu&apos;un dossier dans le quel on recopie tout l&apos;ancien projet
+                                    </text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">L&apos;historique n&apos;est pas/plus
+                                                accessible
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">Le changement de branche signifie qu&apos;il
+                                                faut tout re-télécharger
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">Il est quasi impossible de retracer l&apos;avancement
+                                                d&apos;une branche sur une période
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">Beaucoup de développeurs préfèrent se
+                                                risquer à commiter du code &quot;sale&quot; au lieu de passer par l&apos;enfer
+                                                de la gestion des branches
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="10"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page11" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Les branches &quot;proprement&quot;</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr14" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.429cm" svg:x="0.86cm" svg:y="4.134cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">À la base les branches sont simples, ce sont des
+                                        commits pointant vers un même parent
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Ce système permet d&apos;avoir deux branches
+                                        totalement indépendantes.
+                                    </text:span>
+                                    <text:span text:style-name="T13">C3</text:span>
+                                    <text:span text:style-name="T16">et</text:span>
+                                    <text:span text:style-name="T13">C4</text:span>
+                                    <text:span text:style-name="T16">n&apos;ont strictement aucun lien entre eux
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T13">C5</text:span>
+                                    <text:span text:style-name="T16">n&apos;est pas après</text:span>
+                                    <text:span text:style-name="T13">C4</text:span>
+                                    <text:span text:style-name="T16">même si chronologiquement les commits se suivent
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="10.722cm"
+                            svg:height="5.607cm" svg:x="7.339cm" svg:y="5.609cm">
+                    <draw:image xlink:href="Pictures/10000201000001300000009F7160AF72.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="14.249cm"
+                            svg:height="5.607cm" svg:x="5.576cm" svg:y="11.893cm">
+                    <draw:image xlink:href="Pictures/10000201000001940000009F8DB8D4B7.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="11"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page12" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Les merges</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr15" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.109cm" svg:x="0.86cm" svg:y="4.134cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Les branches ne sont que des commits distincts (non
+                                        successifs) sur un graphe
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Merger signifie simplement créer un commit
+                                        regroupant les deux (ou plus) branches
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Une réponse simple à un concept simple</text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Des outils vont automatiser le merge et résoudre la
+                                        plupart des
+                                    </text:span>
+                                    <text:span text:style-name="T17">conflits</text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Attention cependant, il faudra en résoudre certains
+                                        soit même, manuellement
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="17.882cm"
+                            svg:height="5.713cm" svg:x="3.759cm" svg:y="7.687cm">
+                    <draw:image xlink:href="Pictures/10000201000001FB000000A2FFFCFFD2.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="12"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page13" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Cas &quot;amusant&quot;</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr16" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.977cm" svg:x="0.86cm" svg:y="4.134cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Les commits successifs</text:span>
+                                    <text:span text:style-name="T13">C1</text:span>
+                                    <text:span text:style-name="T16">,</text:span>
+                                    <text:span text:style-name="T13">C2</text:span>
+                                    <text:span text:style-name="T16">,</text:span>
+                                    <text:span text:style-name="T13">C3</text:span>
+                                    <text:span text:style-name="T16">sont créés</text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T13">C4</text:span>
+                                    <text:span text:style-name="T16">est une branche de</text:span>
+                                    <text:span text:style-name="T13">C2</text:span>
+                                    <text:span text:style-name="T16">et</text:span>
+                                    <text:span text:style-name="T13">C5</text:span>
+                                    <text:span text:style-name="T16">est le commit suivant</text:span>
+                                    <text:span text:style-name="T13">C4</text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Comment merger les deux branches  sans merger le
+                                        contenu de
+                                    </text:span>
+                                    <text:span text:style-name="T13">C5</text:span>
+                                    <text:span text:style-name="T16">qui est un commit instable (ou non intéressant)
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Ce genre de cas est quasiment ingérable avec
+                                        certains VCS, pourtant la solution est très simple
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="14.355cm"
+                            svg:height="5.713cm" svg:x="5.523cm" svg:y="11cm">
+                    <draw:image xlink:href="Pictures/1000020100000197000000A26E0D4535.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="13"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page14" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Installation &amp; Qui suis-je ?</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr17" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.977cm" svg:x="0.86cm" svg:y="4.134cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">git est</text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">un logiciel de DVCS open-source,
+                                                multiplate-forme et gratuit
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">disponible sur</text:span>
+                                            <text:span text:style-name="T16">
+                                                <text:a xlink:href="http://git-scm.com/" xlink:type="simple">
+                                                    http://git-scm.com/
+                                                </text:a>
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">basé sur les principes vus jusqu&apos;à
+                                                présent
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                                <text:p>
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p>
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T16">Après installation, un nom d&apos;utilisateur et un
+                                        email de contact doivent être configurés (et seront associés aux commits)
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="23.605cm"
+                            svg:height="2.263cm" svg:x="0.898cm" svg:y="8.737cm">
+                    <draw:image xlink:href="Pictures/1000000000000233000000368E486116.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <draw:frame draw:style-name="standard" draw:layer="layout" svg:width="22.607cm" svg:height="1.904cm"
+                            svg:x="1.396cm" svg:y="14.219cm">
+                    <table:table table:template-name="default" table:use-first-row-styles="true"
+                                 table:use-banding-rows-styles="true">
+                        <table:table-column table:style-name="co4"/>
+                        <table:table-row table:style-name="ro4">
+                            <table:table-cell table:style-name="ce1">
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T6">$</text:span>
+                                    <text:span text:style-name="T7">git config --global user.name</text:span>
+                                    <text:span text:style-name="T18">&quot;Zenika&quot;</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T6">$</text:span>
+                                    <text:span text:style-name="T7">git config --global user.email</text:span>
+                                    <text:span text:style-name="T18">&quot;training@zenika.com&quot;</text:span>
+                                </text:p>
+                            </table:table-cell>
+                        </table:table-row>
+                    </table:table>
+                    <draw:image xlink:href="Pictures/TablePreview4.svm" xlink:type="simple" xlink:show="embed"
+                                xlink:actuate="onLoad"/>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="14"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page15" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Travailler avec ses outils</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr18" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.977cm" svg:x="0.86cm" svg:y="4.134cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Pour la gestion de certains messages et éditions,
+                                        git va automatiquement appeler un éditeur de texte
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Par défaut celui pointé par la variable d&apos;environnement
+                                        EDITOR sera choisi
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Pour spécifier un autre éditeur</text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T15">git config --global core.editor &quot;notepad.exe&quot;</text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                                <text:p>
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p>
+                                    <text:span text:style-name="T16">Certains éditeurs sont conseillés</text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">Windows : notepad.exe notepad++.exe
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">Linux/UNIX : vi, emacs, nano</text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">Mac OS : textmate</text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="4.515cm"
+                            svg:height="4.515cm" svg:x="19.985cm" svg:y="14cm">
+                    <draw:image xlink:href="Pictures/10000201000000800000008069D3970A.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="15"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page16" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Initialiser un projet</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr19" draw:text-style-name="P7" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.977cm" svg:x="0.86cm" svg:y="4.134cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Une fois que git est installé et configuré il ne
+                                        reste plus qu&apos;à démarrer un projet
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">En ligne de commande,</text:span>
+                                    <text:span text:style-name="T13">git init</text:span>
+                                    <text:span text:style-name="T16">créera un dossier versionné sous git</text:span>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">Le dossier &quot;.git&quot; créé sera le lieu où
+                                        toutes les données et configurations seront stockées en interne
+                                    </text:span>
+                                </text:p>
+                                <text:list>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T16">Il n&apos;y a qu&apos;un seul et
+                                            </text:span>
+                                            <text:span text:style-name="T13">unique</text:span>
+                                            <text:span text:style-name="T16">dossier</text:span>
+                                            <text:span text:style-name="T19">&quot;.git&quot; pour</text:span>
+                                            <text:span text:style-name="T20">tout</text:span>
+                                            <text:span text:style-name="T19">le projet</text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                    <text:list-item>
+                                        <text:p>
+                                            <text:span text:style-name="T19">Au fur et à mesure, le contenu de ce
+                                                dossier sera analysé en détails
+                                            </text:span>
+                                        </text:p>
+                                    </text:list-item>
+                                </text:list>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="standard" draw:layer="layout" svg:width="20.005cm" svg:height="3.921cm"
+                            svg:x="2.697cm" svg:y="8.574cm">
+                    <table:table table:template-name="default" table:use-first-row-styles="true"
+                                 table:use-banding-rows-styles="true">
+                        <table:table-column table:style-name="co5"/>
+                        <table:table-row table:style-name="ro5">
+                            <table:table-cell table:style-name="ce4">
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T6">$</text:span>
+                                    <text:span text:style-name="T7">git init resaroute</text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T7">Initialized empty Git repository in
+                                        /home/user/resaroute/.git/
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T7"/>
+                                </text:p>
+                                <text:p text:style-name="P9">
+                                    <text:span text:style-name="T6">$</text:span>
+                                </text:p>
+                            </table:table-cell>
+                        </table:table-row>
+                    </table:table>
+                    <draw:image xlink:href="Pictures/TablePreview5.svm" xlink:type="simple" xlink:show="embed"
+                                xlink:actuate="onLoad"/>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="16"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <draw:page draw:name="page17" draw:style-name="dp3" draw:master-page-name="design-2008"
+                       presentation:presentation-page-layout-name="AL2T1" presentation:use-footer-name="ftr1">
+                <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+                <draw:frame draw:style-name="gr4" draw:text-style-name="P10" draw:layer="layout" svg:width="3.351cm"
+                            svg:height="1.991cm" svg:x="21.764cm" svg:y="14.718cm">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T21">TP1</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="layout"
+                            svg:width="19.548cm" svg:height="2.77cm" svg:x="0.86cm" svg:y="0.264cm"
+                            presentation:class="title" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:p text:style-name="P1">
+                            <text:span text:style-name="T2">Trouver de l&apos;aide</text:span>
+                        </text:p>
+                    </draw:text-box>
+                </draw:frame>
+                <draw:frame draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="18.573cm"
+                            svg:height="6.693cm" svg:x="3.414cm" svg:y="6.902cm">
+                    <draw:image xlink:href="Pictures/10000000000002BE000000FD33345F10.png" xlink:type="simple"
+                                xlink:show="embed" xlink:actuate="onLoad">
+                        <text:p/>
+                    </draw:image>
+                </draw:frame>
+                <draw:frame presentation:style-name="pr20" draw:text-style-name="P6" draw:layer="layout"
+                            svg:width="23.438cm" svg:height="14.387cm" svg:x="0.86cm" svg:y="4.134cm"
+                            presentation:class="outline" presentation:user-transformed="true">
+                    <draw:text-box>
+                        <text:list text:style-name="L3">
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">En cas de problème, il est possible de se référer à
+                                        la documentation git via
+                                    </text:span>
+                                    <text:span text:style-name="T15">git help &lt;command&gt;</text:span>
+                                    <text:span text:style-name="T16">ou</text:span>
+                                    <text:span text:style-name="T15">man git-command</text:span>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16">La documentation est aussi disponible
+                                        http://git-scm.com/docs
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T16"/>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T19"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T19">La mailing list</text:span>
+                                    <text:span text:style-name="T19">
+                                        <text:a xlink:href="mailto:git@vger.kernel.org" xlink:type="simple">
+                                            git@vger.kernel.org
+                                        </text:a>
+                                    </text:span>
+                                    <text:span text:style-name="T19">permet de résoudre la plupart des problèmes
+                                        techniques et bugs liés à git
+                                    </text:span>
+                                </text:p>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T19"/>
+                                </text:p>
+                            </text:list-item>
+                            <text:list-item>
+                                <text:p text:style-name="P6">
+                                    <text:span text:style-name="T19">La page</text:span>
+                                    <text:span text:style-name="T19">
+                                        <text:a xlink:href="http://git-scm.com/documentation" xlink:type="simple">
+                                            http://git-scm.com/documentation
+                                        </text:a>
+                                    </text:span>
+                                    <text:span text:style-name="T19">liste les ressources les plus pertinentes dans le
+                                        domaine
+                                    </text:span>
+                                </text:p>
+                            </text:list-item>
+                        </text:list>
+                    </draw:text-box>
+                </draw:frame>
+                <presentation:notes draw:style-name="dp2">
+                    <draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="12.572cm"
+                                         svg:height="9.489cm" svg:x="3.219cm" svg:y="1.908cm" draw:page-number="17"
+                                         presentation:class="page"/>
+                    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="layout"
+                                svg:width="15.231cm" svg:height="11.428cm" svg:x="1.902cm" svg:y="12.063cm"
+                                presentation:class="notes" presentation:placeholder="true"
+                                presentation:user-transformed="true">
+                        <draw:text-box/>
+                    </draw:frame>
+                </presentation:notes>
+            </draw:page>
+            <presentation:settings presentation:mouse-visible="false"/>
+        </office:presentation>
+    </office:body>
+</office:document-content>
