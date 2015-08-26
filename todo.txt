@@ -1,7 +1,6 @@
 - prendre en paramètre un directory
 - créer un fichier .md par slide
 - tests unitaires
-- refac la partie écriture dans un writer
 
 
 
