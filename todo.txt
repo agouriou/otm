@@ -1,21 +1,15 @@
-dezipper 
-
-
-créer un fichier .md par slide
-
-passer en streaming
-
-ajouter le contenu du slide
-
-ajouter les pictures
+- prendre en paramètre un directory
+- créer un fichier .md par slide
+- tests unitaires
+- refac la partie écriture dans un writer
 
 
 
 
+pour s'amuser à faire de la communication channel + subroutines:
 un worker qui lit le xml et push dans un chan pour chaque page. Close le chan quand la page est finie de parser
 des workers qui transforment en md. Quand un worker commence, il s'enregistre dans un workergroup pour la page
 quand le chan de la page est vide et que le workergroup est prêt, on peut terminer l'écriture du slide 
-
 
 pour s'assurer de l'ordre, un id est assigné à chaque objet qui doit être transformé en MD
 
