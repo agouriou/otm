@@ -3,19 +3,19 @@ import (
 	"archive/zip"
 	"log"
 	"encoding/xml"
-	"io/ioutil"
 	"bytes"
-	"fmt"
 	"os"
 	"bufio"
+	"fmt"
+	"strings"
 )
 
 type Text struct {
-	Content	[]byte	`xml:",chardata"`
-	SomethingElse	[]byte	`xml:",any"`
+	Content       []byte    `xml:",chardata"`
+	SomethingElse []byte    `xml:",any"`
 }
 
-func (text *Text) ToMD() (md string){
+func (text *Text) ToMD() (md string) {
 	var out bytes.Buffer
 	out.Write(text.Content)
 	out.Write(text.SomethingElse)
@@ -72,7 +72,7 @@ func (frame *Frame) ToMD() (md string) {
 }
 
 type Page struct {
-	Name string `xml:"name,attr"`
+	Name   string `xml:"name,attr"`
 	Frames []Frame `xml:"frame"`
 }
 
@@ -87,8 +87,8 @@ func (page *Page) ToMD() (md string) {
 
 type Document struct {
 	XMLName xml.Name `xml:"document-content"`
-	Name string
-	Pages []Page `xml:"body>presentation>page"`
+	Name    string
+	Pages   []Page `xml:"body>presentation>page"`
 }
 
 
@@ -105,7 +105,10 @@ func (doc *Document) ToMD() (md string) {
 }
 
 
-func main(){
+func main() {
+
+	const OUT_DIR string = "testdata/Slides"
+	const RESOURCE_DIR = "testdata/Slides/resources"
 
 	// Open a zip archive for reading.
 	r, err := zip.OpenReader("testdata/02-git.odp")
@@ -114,12 +117,17 @@ func main(){
 	}
 	defer r.Close()
 
+	resCreator := ResourceCreator{PathToResources: RESOURCE_DIR, ResourcesToCreate: make(chan *zip.File, 100), Done: make(chan bool)}
+	go resCreator.start()
+
 	// Iterate through the files in the archive,
 	// printing some of their contents.
 	for _, f := range r.File {
+		log.Println(f.Name)
 		if f.Name == "content.xml" {
 
-			fo, err := os.Create("output.txt")
+
+			fo, err := os.Create("testdata/Slides/output.md")
 			if err != nil {
 				panic(err)
 			}
@@ -131,25 +139,39 @@ func main(){
 			}()
 			writer := bufio.NewWriter(fo)
 
-			decode(f, writer)
-//str := "<office:body><draw:page draw:name=\"page17\" draw:style-name=\"dp3\" draw:master-page-name=\"design-2008\" presentation:presentation-page-layout-name=\"AL2T1\" presentation:use-footer-name=\"ftr1\"><office:forms form:automatic-focus=\"false\" form:apply-design-mode=\"false\"/><draw:frame draw:style-name=\"gr4\" draw:text-style-name=\"P10\" draw:layer=\"layout\" svg:width=\"3.351cm\" svg:height=\"1.991cm\" svg:x=\"21.764cm\" svg:y=\"14.718cm\"><draw:text-box><text:p text:style-name=\"P1\"><text:span text:style-name=\"T21\">TP1</text:span></text:p></draw:text-box></draw:frame><draw:frame presentation:style-name=\"pr1\" draw:text-style-name=\"P5\" draw:layer=\"layout\" svg:width=\"19.548cm\" svg:height=\"2.77cm\" svg:x=\"0.86cm\" svg:y=\"0.264cm\" presentation:class=\"title\" presentation:user-transformed=\"true\"><draw:text-box><text:p text:style-name=\"P1\"><text:span text:style-name=\"T2\">Trouver de l&apos;aide</text:span></text:p></draw:text-box></draw:frame><draw:frame draw:style-name=\"gr2\" draw:text-style-name=\"P8\" draw:layer=\"layout\" svg:width=\"18.573cm\" svg:height=\"6.693cm\" svg:x=\"3.414cm\" svg:y=\"6.902cm\"><draw:image xlink:href=\"Pictures/10000000000002BE000000FD33345F10.png\" xlink:type=\"simple\" xlink:show=\"embed\" xlink:actuate=\"onLoad\"><text:p/></draw:image></draw:frame><draw:frame presentation:style-name=\"pr20\" draw:text-style-name=\"P6\" draw:layer=\"layout\" svg:width=\"23.438cm\" svg:height=\"14.387cm\" svg:x=\"0.86cm\" svg:y=\"4.134cm\" presentation:class=\"outline\" presentation:user-transformed=\"true\"><draw:text-box><text:list text:style-name=\"L3\"><text:list-item><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\">En cas de problème, il est possible de se référer à la documentation git via </text:span><text:span text:style-name=\"T15\">git help &lt;command&gt;</text:span><text:span text:style-name=\"T16\"> ou </text:span><text:span text:style-name=\"T15\">man git-command</text:span></text:p></text:list-item><text:list-item><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\">La documentation est aussi disponible http://git-scm.com/docs</text:span></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\"/></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\"/></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\"/></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\"/></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\"/></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T19\"/></text:p></text:list-item><text:list-item><text:p text:style-name=\"P6\"><text:span text:style-name=\"T19\">La mailing list </text:span><text:span text:style-name=\"T19\"><text:a xlink:href=\"mailto:git@vger.kernel.org\" xlink:type=\"simple\">git@vger.kernel.org</text:a></text:span><text:span text:style-name=\"T19\"> permet de résoudre la plupart des problèmes techniques et bugs liés à git</text:span></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T19\"/></text:p></text:list-item><text:list-item><text:p text:style-name=\"P6\"><text:span text:style-name=\"T19\">La page </text:span><text:span text:style-name=\"T19\"><text:a xlink:href=\"http://git-scm.com/documentation\" xlink:type=\"simple\">http://git-scm.com/documentation</text:a></text:span><text:span text:style-name=\"T19\"> liste les ressources les plus pertinentes dans le domaine</text:span></text:p></text:list-item></text:list></draw:text-box></draw:frame><presentation:notes draw:style-name=\"dp2\"><draw:page-thumbnail draw:style-name=\"gr1\" draw:layer=\"layout\" svg:width=\"12.572cm\" svg:height=\"9.489cm\" svg:x=\"3.219cm\" svg:y=\"1.908cm\" draw:page-number=\"17\" presentation:class=\"page\"/><draw:frame presentation:style-name=\"pr5\" draw:text-style-name=\"P4\" draw:layer=\"layout\" svg:width=\"15.231cm\" svg:height=\"11.428cm\" svg:x=\"1.902cm\" svg:y=\"12.063cm\" presentation:class=\"notes\" presentation:placeholder=\"true\" presentation:user-transformed=\"true\"><draw:text-box/></draw:frame></presentation:notes></draw:page></office:body>"
+			resourceChan := make(chan string, 100)
 
-			//TODO: utiliser un buffer? Si le fichier est volumineux...
-			if content, err := ioutil.ReadAll(rc); err != nil {
-				log.Fatal(err)
-			} else if err := xml.Unmarshal(content, &doc); err != nil {
-				log.Fatal(err)
-			}
+			decode(f, writer, &resourceChan)
 
-			fmt.Println(doc.ToMD())
-
+			writer.Flush()
+		}else if isImgToUse(f.Name) {
+			log.Printf("Picture found : %s", f.Name)
+			resCreator.ResourcesToCreate <- f
 		}
-
 	}
+
+	close(resCreator.ResourcesToCreate)
+	<-resCreator.Done
+
 }
 
+func isImgToUse(fileName string) bool {
+	return strings.HasPrefix(fileName, "Pictures") && !strings.HasSuffix(fileName, ".svm")
+}
 
-func decode(file *zip.File, writer bufio.Writer){
+//str := "<office:body><draw:page draw:name=\"page17\" draw:style-name=\"dp3\" draw:master-page-name=\"design-2008\" presentation:presentation-page-layout-name=\"AL2T1\" presentation:use-footer-name=\"ftr1\"><office:forms form:automatic-focus=\"false\" form:apply-design-mode=\"false\"/><draw:frame draw:style-name=\"gr4\" draw:text-style-name=\"P10\" draw:layer=\"layout\" svg:width=\"3.351cm\" svg:height=\"1.991cm\" svg:x=\"21.764cm\" svg:y=\"14.718cm\"><draw:text-box><text:p text:style-name=\"P1\"><text:span text:style-name=\"T21\">TP1</text:span></text:p></draw:text-box></draw:frame><draw:frame presentation:style-name=\"pr1\" draw:text-style-name=\"P5\" draw:layer=\"layout\" svg:width=\"19.548cm\" svg:height=\"2.77cm\" svg:x=\"0.86cm\" svg:y=\"0.264cm\" presentation:class=\"title\" presentation:user-transformed=\"true\"><draw:text-box><text:p text:style-name=\"P1\"><text:span text:style-name=\"T2\">Trouver de l&apos;aide</text:span></text:p></draw:text-box></draw:frame><draw:frame draw:style-name=\"gr2\" draw:text-style-name=\"P8\" draw:layer=\"layout\" svg:width=\"18.573cm\" svg:height=\"6.693cm\" svg:x=\"3.414cm\" svg:y=\"6.902cm\"><draw:image xlink:href=\"Pictures/10000000000002BE000000FD33345F10.png\" xlink:type=\"simple\" xlink:show=\"embed\" xlink:actuate=\"onLoad\"><text:p/></draw:image></draw:frame><draw:frame presentation:style-name=\"pr20\" draw:text-style-name=\"P6\" draw:layer=\"layout\" svg:width=\"23.438cm\" svg:height=\"14.387cm\" svg:x=\"0.86cm\" svg:y=\"4.134cm\" presentation:class=\"outline\" presentation:user-transformed=\"true\"><draw:text-box><text:list text:style-name=\"L3\"><text:list-item><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\">En cas de problème, il est possible de se référer à la documentation git via </text:span><text:span text:style-name=\"T15\">git help &lt;command&gt;</text:span><text:span text:style-name=\"T16\"> ou </text:span><text:span text:style-name=\"T15\">man git-command</text:span></text:p></text:list-item><text:list-item><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\">La documentation est aussi disponible http://git-scm.com/docs</text:span></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\"/></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\"/></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\"/></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\"/></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T16\"/></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T19\"/></text:p></text:list-item><text:list-item><text:p text:style-name=\"P6\"><text:span text:style-name=\"T19\">La mailing list </text:span><text:span text:style-name=\"T19\"><text:a xlink:href=\"mailto:git@vger.kernel.org\" xlink:type=\"simple\">git@vger.kernel.org</text:a></text:span><text:span text:style-name=\"T19\"> permet de résoudre la plupart des problèmes techniques et bugs liés à git</text:span></text:p><text:p text:style-name=\"P6\"><text:span text:style-name=\"T19\"/></text:p></text:list-item><text:list-item><text:p text:style-name=\"P6\"><text:span text:style-name=\"T19\">La page </text:span><text:span text:style-name=\"T19\"><text:a xlink:href=\"http://git-scm.com/documentation\" xlink:type=\"simple\">http://git-scm.com/documentation</text:a></text:span><text:span text:style-name=\"T19\"> liste les ressources les plus pertinentes dans le domaine</text:span></text:p></text:list-item></text:list></draw:text-box></draw:frame><presentation:notes draw:style-name=\"dp2\"><draw:page-thumbnail draw:style-name=\"gr1\" draw:layer=\"layout\" svg:width=\"12.572cm\" svg:height=\"9.489cm\" svg:x=\"3.219cm\" svg:y=\"1.908cm\" draw:page-number=\"17\" presentation:class=\"page\"/><draw:frame presentation:style-name=\"pr5\" draw:text-style-name=\"P4\" draw:layer=\"layout\" svg:width=\"15.231cm\" svg:height=\"11.428cm\" svg:x=\"1.902cm\" svg:y=\"12.063cm\" presentation:class=\"notes\" presentation:placeholder=\"true\" presentation:user-transformed=\"true\"><draw:text-box/></draw:frame></presentation:notes></draw:page></office:body>"
+
+//			//TODO: utiliser un buffer? Si le fichier est volumineux...
+//			if content, err := ioutil.ReadAll(rc); err != nil {
+//				log.Fatal(err)
+//			} else if err := xml.Unmarshal(content, &doc); err != nil {
+//				log.Fatal(err)
+//			}
+//
+//			fmt.Println(doc.ToMD())
+
+
+func decode(file *zip.File, writer *bufio.Writer, resourceChan *chan string) {
 	rc, err := file.Open()
 	defer rc.Close()
 	if err != nil {
@@ -158,21 +180,93 @@ func decode(file *zip.File, writer bufio.Writer){
 
 	decoder := xml.NewDecoder(rc)
 
-	for{
+	//current list depth
+	var listDepth int = -1
+	var emptyParagraph bool = true
+	for {
 		tkn, err := decoder.Token()
 		if err != nil {
 			break
 		}
-		switch startElem := tkn.(type) {
+		switch elem := tkn.(type) {
 		case xml.StartElement:
-			if startElem.Name.Local == "page" {
-				var p Page
-				decoder.DecodeElement(&p, &startElem)
+			switch elem.Name.Local {
+			case "p":
+				emptyParagraph = true
+			case "page" :
 				if _, err := writer.WriteString("\n\n\n"); err != nil {
 					panic(err)
 				}
+			case "frame":
+				if isTitleFrame(&elem) {
+					if _, err := writer.WriteString("##"); err != nil {
+						panic(err)
+					}
+				}
+			case "list":
+				listDepth++
+			case "list-item" :
+				var buff bytes.Buffer
+				for i := 0; i < listDepth; i++ {
+					buff.WriteString("  ")
+				}
+				buff.WriteString("- ")
+				if _, err := writer.Write(buff.Bytes()); err != nil {
+					panic(err)
+				}
+			//			case "span":
+			//				if _, err := writer.WriteString("\n"); err != nil {
+			//					panic(err)
+			//				}
+			case "image":
+				imgPath := getImagePath(&elem)
+				if imgPath == "" {
+					panic("Path not found for image")
+				}
+				if isImgToUse(imgPath) {
+					split := strings.Split(imgPath, "/")
+					imgFileName := split[len(split) - 1]
+					imgMD := fmt.Sprintf("<img src=\"resources/%s\" />\n", imgFileName)
+					if _, err := writer.WriteString(imgMD); err != nil {
+						panic(err)
+					}
+				}
+			}
+		case xml.CharData:
+			emptyParagraph = false
+			if _, err := writer.Write(elem); err != nil {
+				panic(err)
+			}
+		case xml.EndElement:
+			switch elem.Name.Local {
+			case "p":
+				if !emptyParagraph {
+					if _, err := writer.WriteString("\n\n"); err != nil {
+						panic(err)
+					}
+				}
+			case "list":
+				listDepth--
 			}
 		}
 
 	}
+}
+
+func isTitleFrame(elem *xml.StartElement) bool {
+	for _, attr := range elem.Attr {
+		if attr.Name.Local == "class" && attr.Value == "title" {
+			return true
+		}
+	}
+	return false
+}
+
+func getImagePath(elem *xml.StartElement) string {
+	for _, attr := range elem.Attr {
+		if attr.Name.Local == "href" {
+			return attr.Value
+		}
+	}
+	return ""
 }

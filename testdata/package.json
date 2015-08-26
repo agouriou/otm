@@ -1,0 +1,21 @@
+{
+  "name": "AngularJs",
+  "description": "Formation AngularJs",
+  "version": "0.1.0",
+  "author": "Zenika",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "zenika-formation-framework": "git+https://github.com/Zenika/Formation--Framework.git#tags/0.4.1"
+  },
+  "homepage": "http://www.zenika.com/formation-angularjs.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zenika/formation-angularjs"
+  },
+  "config": {
+    "deploy": {
+      "name": "zen-formation-angularjs"
+    }
+  }
+}
